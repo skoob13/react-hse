@@ -1,2 +1,5 @@
-# react-hse
-React HSE courses
+# React HSE course
+Репозиторий с практикой для курса в ВШЭ по веб-программированию (HTML, CSS, JS, React, React Native)
+
+## Занятия
+⋅⋅* `/Lecture 2/` - занятие 2, копировали лендинг SurfStudio. Успели сделать только шапку.

@@ -1,0 +1,51 @@
+/*
+
+urls for images:
+
+#surflogo:	https://static.tildacdn.com/tild3033-3066-4434-b036-366133653561/surflogo1.png
+
+#labyrinth:	https://static.tildacdn.com/tild3533-3262-4663-b230-623632663034/labirintbage3.png
+#facebook:	https://static.tildacdn.com/tild3161-3835-4132-b761-336434616464/taglinebage2.png
+#google:	https://static.tildacdn.com/tild3738-3133-4362-b730-313663373261/GoogleIO2016kygo838.jpg
+
+#okay:		https://static.tildacdn.com/tild6564-3538-4537-a537-313166393764/8Z0A76553.jpg
+#delivery:	https://static.tildacdn.com/tild3134-3462-4530-b731-383535323365/party_bigjpg.jpg
+#forbes:	https://static.tildacdn.com/tild6364-3731-4565-b033-363263386637/preview_forbes_2.jpg
+
+*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	background-image: url(https://static.tildacdn.com/tild6162-3435-4863-b136-373833303236/41a76c077790474d8eabfd4422765836jpg.jpg);
+	height: 600px;
+	flex-direction: column;
+	color: white;
+}
+
+nav {
+	display: flex;
+	padding: 20px;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 56px;
+}
+
+.logo {
+	margin-left: auto;
+}
