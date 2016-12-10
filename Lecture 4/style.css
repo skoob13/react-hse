@@ -61,6 +61,10 @@ body {
   flex: 0.8 0;
 }
 
+.blog-post {
+  padding: 16px 0;
+}
+
 .footer {
   display: flex;
   align-items: center;
@@ -82,4 +86,9 @@ h4 {
 
 .text {
   width: 100%;
+}
+
+#articles {
+  max-height: 100px;
+  overflow-y: scroll;
 }
