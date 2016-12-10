@@ -5,10 +5,15 @@
     <title>My cool website</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./app.js" charset="utf-8"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="wrap">
       <nav class="main-nav">
+        <img src="https://www.hse.ru/images/main_en/hse_ru_logo.svg" class="logo">
         <a href="#">Blog</a>
         <a href="./contact.html">Contacts</a>
       </nav>
@@ -22,6 +27,13 @@
             <h3>First blog post</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </article>
+          <form class="form" action="index.html" method="post">
+            <h4>Title:</h4>
+            <input id="title-input" class="title" type="text" name="" value="">
+            <h4>Text:</h4>
+            <textarea id="text-input" class="text" name="name" rows="8" cols="80"></textarea>
+            <input id="send" type="submit" name="" value="Отправить">
+          </form>
         </div>
         <footer class="footer">
           &copy; by awesome cool dude

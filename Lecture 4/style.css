@@ -19,14 +19,67 @@ body {
   border-radius: 4px;
 }
 
+.header {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
 .main-nav {
   display: flex;
   flex-direction: column;
   flex: 0.2 0;
 }
 
+.logo {
+  width: 100px;
+  align-self: center;
+  padding: 8px;
+}
+
+.main-nav a {
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-right: 16px;
+  padding: 5px 10px;
+  background: #448AFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.main-nav a:hover {
+  background: #2a59a6;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   flex: 0.8 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px 0px 16px;
+}
+
+.form {
+  margin-top: 32px;
+}
+
+h4 {
+  padding: 8px;
+}
+
+.title {
+  display: inline;
+}
+
+.text {
+  width: 100%;
 }
