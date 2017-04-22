@@ -1,0 +1,17 @@
+.card {
+  padding: 10px;
+  border-radius: 4px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.card > span {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-size: 12px;
+}
+
+.card:hover {
+  background: #fef;
+}
